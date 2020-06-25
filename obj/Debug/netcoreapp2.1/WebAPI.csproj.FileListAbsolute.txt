@@ -11,4 +11,3 @@ C:\Web API 2\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfo.cs
 C:\Web API 2\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Web API 2\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
 C:\Web API 2\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb
-C:\Web API 2\WebAPI\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
