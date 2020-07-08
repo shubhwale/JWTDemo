@@ -32,7 +32,15 @@ namespace WebAPI.Controllers
         //GET api/applicationuser
         public List<ApplicationUser> ListUsers()
         {
-            return _userManager.Users.ToList();
+            try
+            {
+                return _userManager.Users.ToList();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
         }
 
         [HttpPost]
