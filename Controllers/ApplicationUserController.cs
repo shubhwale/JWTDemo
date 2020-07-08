@@ -28,6 +28,13 @@ namespace WebAPI.Controllers
             _appSettings = appSettings.Value;
         }
 
+        [HttpGet]
+        //GET api/applicationuser
+        public List<ApplicationUser> ListUsers()
+        {
+            return _userManager.Users.ToList();
+        }
+
         [HttpPost]
         [Route("register")]
         //POST api/applicationuser/register
